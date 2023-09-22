@@ -3,4 +3,5 @@ class Customer{
 private long cusId;
 private String name;
 private LocalDate dob;
+private String add;
 }
