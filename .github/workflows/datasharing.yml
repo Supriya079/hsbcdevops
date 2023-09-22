@@ -35,6 +35,5 @@ jobs:
       - name: Download a single artifact
         uses: actions/download-artifact@v3
         with:
-          name: output.log-file
-            run:|
-                 cat output.log 
+          name: output-log-file
+           
